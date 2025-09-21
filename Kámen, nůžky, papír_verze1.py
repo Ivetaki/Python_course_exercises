@@ -11,4 +11,5 @@ for hrac, pocitac in zip(hrac_volby, pocitac_volby):
     vysledek = "Vyhrává hráč!"
   else:
     vysledek = "Vyhrává počítač!"
-print(f"Hráč: {hrac:6}  Počítač: {pocitac:6}  → {vysledek}")
+
+  print(f"Hráč: {hrac:6}  Počítač: {pocitac:6}  → {vysledek}")
